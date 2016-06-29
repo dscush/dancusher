@@ -1,0 +1,15 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block head %}
+    {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block navigation %}
+    {% include "partials/navigation.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+    {% include "partials/projects.nunjucks" %}
+    {% include "partials/bio.nunjucks" %}
+{% endblock %}

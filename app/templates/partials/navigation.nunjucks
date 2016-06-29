@@ -1,0 +1,17 @@
+                <header>
+                    <div id="navbar" class="affix navbar">
+                        <h1>Dan Cusher</h1>
+                        <ul id="sidebar" class="nav nav-stacked nav-pills">
+                            {% for project_set in project_sets %}
+                            <li><a href="#{{project_set.id}}" class="">{{project_set.name}}</a></li>
+                            {% endfor %}
+                            <li><a href="#bio" class="">Bio</a></li>
+                        </ul>
+                        <div class="squares text-center">
+                            <a href="http://www.github.com/dscush" data-toggle="tooltip" data-placement="bottom" title="Github"><span class="fa my-fa-github"></span></a>
+                            <a href="https://www.linkedin.com/in/dancusher" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><span class="fa my-fa-linkedin"></span></a>
+                            <a href="mailto:dan@dancusher.com" data-toggle="tooltip" data-placement="bottom" title="Email"><span class="fa my-fa-email"></span></a>
+                            <a href="mailto:dan@dancusher.com" data-toggle="tooltip" data-placement="bottom" title="Email"><span class="fa my-fa-email"></span></a>
+                        </div>
+                    </div>
+                </header>

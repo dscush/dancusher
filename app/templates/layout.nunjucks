@@ -1,0 +1,30 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+{% block head %} {% endblock %}
+<body data-spy="scroll" data-target="#navbar">
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                {% block navigation %} {% endblock %}
+            </div>
+            <div class="col-sm-9">
+                {% block content %} {% endblock %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- build:js scripts/plugins.js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "dancusher",
+  "authors": [
+    "Dan Cusher <dan@dancusher.com>"
+  ],
+  "description": "Personal website for Dan Cusher",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "www.dancusher.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "bootstrap-social": "^5.0.0",
+    "font-awesome": "^4.5.0",
+    "bootstrap-sass": "^3.3.6"
+  }
+}
