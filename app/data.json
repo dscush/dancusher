@@ -6,7 +6,7 @@
             "id": "friends_website",
             "name": "Friends Website",
             "image": "images/friends_site2.jpg",
-            "description": "This is an <strong>single-page</strong> app I made for a local nonprofit.  I started it all off with <strong>Yeoman</strong>, and it uses <strong>Bootstrap</strong> and <strong>AngularJS</strong>, as well as <strong>Sass</strong>, <strong>Gulp</strong>, Babel, Bower, and bunch of other fancy buzzwords.  Go ahead and <a href=\"http://www.friendsgpl.org\">check it out</a> for yourself, or dig into the <a href=\"http://www.github.com/dscush/friends-public\">source code</a>.  I especially like how various links, especially on the About page, send you to the Contact page with the form partially prepopulated for you.  That took a while, but I learned <i>a lot</i> about Angular UI-Router."
+            "description": "This is an <strong>single-page</strong> app I made for a local nonprofit.  I started it all off with <strong>Yeoman</strong>, then <strong>Bootstrap</strong> and <strong>AngularJS</strong>, as well as <strong>Sass</strong>, <strong>Gulp</strong>, Babel, Bower, and bunch of other fancy buzzwords.  Go ahead and <a href=\"http://www.friendsgpl.org\">check it out</a> for yourself, or dig into the <a href=\"http://www.github.com/dscush/friends-public\">source code</a>.  I especially like how various links, especially on the About page, send you to the Contact page with the form partially prepopulated for you.  That took a while, but I learned <i>a lot</i> about Angular UI-Router."
         },{
             "id": "my_website",
             "name": "This Website",
@@ -15,8 +15,8 @@
         },{
             "id": "friends_database",
             "name": "Friends Database",
-            "image": "images/friends_site2.jpg",
-            "description": "I made this <strong>Django</strong> app primarily to store the membership list for the Friends of the Grafton Public Library.  When I became Membership Chair, I was given an over-complicated Excel sheet - one sheet - organized by both individual and family.  First I split that out into a relational database, but when I realized that eventually there would be a new Membership Chair who didn't know SQL, I decided to wrap it in Django's beautiful built-in admin app.  I plan to incorporate this into the main Friends site as a backend, so that I can A) store other site data there and B) allow board members to login and view the membership info via that same site.  See <a href=\"http://www.github.com/dscush/friendsgpl\">source</a>."
+            "image": "images/friends_database.jpg",
+            "description": "I made this <strong>Django</strong> app primarily to store the membership list for the Friends of the Grafton Public Library.  When I became Membership Chair, I was given a single over-complicated Excel sheet with rows organized by both individual and family.  First I split that out into a relational database (a table for individuals and a table for families), but when I realized that eventually there would be a new Membership Chair who didn't know <strong>SQL</strong>, I decided to wrap it in Django's beautiful built-in admin app.  I plan to incorporate this into the main Friends site as a backend, so that I can A) store other site data there and B) allow board members to login and view the membership info via that same site.  See <a href=\"http://www.github.com/dscush/friendsgpl\">source</a>."
         }]
     }, {
         "id": "extracurriculars",
@@ -35,7 +35,7 @@
             "id": "science",
             "name": "Science",
             "image": "images/growthplate.jpg",
-            "description": "Long before becoming a software engineer, I majored in psychology, minored in biology, and did the pre-med track.  After deciding not to go to med school and before getting my MS in Computer Science, I worked for four years as a biomed lab tech in a behavioral neuroendocrinology lab and an orthopedics lab (where I created the image above).  You can take a look at <a href=\"http://www.ncbi.nlm.nih.gov/pubmed?term=cusher%5BAuthor%5D\">my pubications</a>.  I'm particularly interested in psychology, neuroscience, and evolution"
+            "description": "Long before becoming a software engineer, I majored in psychology, minored in biology, and did the pre-med track.  After deciding not to go to med school and before getting my MS in Computer Science, I worked for four years as a biomed lab tech in a behavioral neuroendocrinology lab and an orthopedics lab (where I created the image above).  You can take a look at <a href=\"http://www.ncbi.nlm.nih.gov/pubmed?term=cusher%5BAuthor%5D\">my pubications</a>.  I'm particularly interested in psychology, neuroscience, and evolution."
         }]
     }]
 }
