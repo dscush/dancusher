@@ -1,18 +1,30 @@
 <div id="bio" class="row row-content">
     <div class="col-xs-12">
-        <h2>Hi, I'm Dan.</h2>
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Hi, I'm Dan.</h2>
+            </div>
+        </div>
     </div>
-    <div class="col-xs-3">
-        <img class="img-responsive" src="images/dan.jpg">
-    </div>
-    <div class="col-xs-9">
-        <p>
-            I'm a Boston-area software engineer and I like making things.  I 
-            have the most experience in <strong>Python</strong> and
-            <strong>sql</strong>, but that was mostly closed source work so I 
-            can't feature it on this site.  In addition to slinging code, I like 
-            science, libraries (I married a librarian), and anything 
-            music-related.
-        </p>
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="panel mypanel">
+                <div class="panel-body">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <img class="img-responsive" src="images/dan.jpg">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-9">
+                        <p>
+                            I'm a Boston-area software engineer and I like making things.  I 
+                            have the most experience in <strong>Python</strong> and
+                            <strong>sql</strong>, but that was mostly closed source work so I 
+                            can't feature it on this site.  In addition to slinging code, I like 
+                            science, libraries (I married a librarian), and anything 
+                            music-related.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
