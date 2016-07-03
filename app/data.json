@@ -6,7 +6,7 @@
             "id": "friends_website",
             "name": "Friends Website",
             "image": "images/friends_site2.jpg",
-            "description": "This is an <strong>single-page</strong> app I made for a local nonprofit.  I started it all off with <strong>Yeoman</strong>, then <strong>Bootstrap</strong> and <strong>AngularJS</strong>, as well as <strong>Sass</strong>, <strong>Gulp</strong>, Babel, Bower, and bunch of other fancy buzzwords.  Go ahead and <a href=\"http://www.friendsgpl.org\">check it out</a> for yourself, or dig into the <a href=\"http://www.github.com/dscush/friends-public\">source code</a>.  I especially like how various links, especially on the About page, send you to the Contact page with the form partially prepopulated for you.  That took a while, but I learned <i>a lot</i> about Angular UI-Router."
+            "description": "This is an <strong>single-page app</strong> I made for a local nonprofit.  I started it all off with <strong>Yeoman</strong>, then <strong>Bootstrap</strong> and <strong>AngularJS</strong>, as well as <strong>Sass</strong>, <strong>Gulp</strong>, Babel, Bower, and bunch of other fancy buzzwords.  Go ahead and <a href=\"http://www.friendsgpl.org\">check it out</a> for yourself, or dig into the <a href=\"http://www.github.com/dscush/friends-public\">source code</a>.  I especially like how various links, especially on the About page, send you to the Contact page with the form partially prepopulated for you.  That took a while, but I learned <i>a lot</i> about Angular UI-Router."
         },{
             "id": "my_website",
             "name": "This Website",
