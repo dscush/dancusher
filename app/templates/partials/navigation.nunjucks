@@ -1,5 +1,30 @@
                 <header>
-                    <div id="navbar" class="affix navbar">
+                    <nav class="navbar navbar-inverse navbar-fixed-top visible-xs">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <h1>Dan Cusher</h1>
+                            </div>
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <ul id="topbar-left" class="nav navbar-nav nav-pills navbar-left">
+                                    {% for project_set in project_sets %}
+                                    <li role="presentation"><a href="#{{project_set.id}}" class="">{{project_set.name}}</a></li>
+                                    {% endfor %}
+                                    <li><a href="#bio" class="">Bio</a></li>
+                                </ul>
+                                <ul id="topbar-right" class="nav navbar-nav nav-pills navbar-right">
+                                    <li><a href="http://www.github.com/dscush" title="Github"><span class="fa my-fa-github"></span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/dancusher" title="Linkedin"><span class="fa my-fa-linkedin"></span></a></li>
+                                    <li><a href="mailto:dan@dancusher.com" title="Email"><span class="fa my-fa-email"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <nav id="navbar" class="affix navbar hidden-xs">
                         <h1>Dan Cusher</h1>
                         <ul id="sidebar" class="nav nav-stacked nav-pills">
                             {% for project_set in project_sets %}
@@ -12,5 +37,5 @@
                             <a href="https://www.linkedin.com/in/dancusher" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><span class="fa my-fa-linkedin"></span></a>
                             <a href="mailto:dan@dancusher.com" data-toggle="tooltip" data-placement="bottom" title="Email"><span class="fa my-fa-email"></span></a>
                         </div>
-                    </div>
+                    </nav>
                 </header>

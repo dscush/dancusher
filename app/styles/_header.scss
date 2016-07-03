@@ -1,73 +1,72 @@
-$navbar_bg_color: darken($main_color, 10%);
-$navpill_bg_color: $main_color;
-$navbar_color: lighten($main_color, 50%);
-$navpill_external_color: lighten($other_color, 10%);
-$navpill_external_bg_color: darken($main_color, 7%);
-$navpill_hover_bg_color: darken($main_color, 20%);
+$navbar_bg_color: $main_color_dark;
+$navpill_bg_color_hover: $main_color_medium;
+$navbar_text_color: $main_color_light;
+$navbar_text_color_hover: $main_color_light;
+$navpill_hover_bg_color: $main_color_dark;
 
 /* Custom page header */
 header {
 	border-bottom: 1px solid #e5e5e5;
-	background-color: $main_color;
+	background-color: $main_color_dark;
 
 	/* Make the masthead heading the same height as the navigation */
 	h1 {
-		color: #0ff;
-		text-shadow: 0 0 10px $main_bright_color;
+		color: $main_color_light;
+		text-shadow: 0 0 10px $main_color_light;
 		margin-top: 0;
 		margin-bottom: 0;
 		line-height: 50px;
 		padding-bottom: 19px;
 		display: inline;
+		@media (max-width: $screen-sm-max) {
+		  font-size: 1.8em;
+		}
 	}
 }
 
-@media (min-width: 767px) {
-  .affix,.affix-top {
-      position:fixed;
-  }
+
+.affix,.affix-top {
+	position:fixed;
 }
 
 .navbar {
-    border-radius: 15px;
-    padding: 5px 15px 15px 15px;
-    margin-top: 15px;
+	&:not(.navbar-fixed-top) {
+	    border-radius: 15px;
+	    padding: 5px 15px 15px 15px;
+	    margin-top: 15px;
+	}
 	background: $navbar_bg_color;
-	color: $navbar_color;
+	color: $navbar_text_color;
 }
 
-.nav {
+.nav, .navbar-inverse .navbar-nav {
 	>li.active {
 		> a, > a:hover, > a:focus {
-			background: $navpill_bg_color;
-		    color: $main_bright_color;
+			background: $navpill_bg_color_hover;
+		    color: $main_color_dark;
 		}
 	}
 	>li:not(.active) {
 		> a {
-			color: $navbar_color;
+			color: $navbar_text_color;
 		}
 		> a:hover {
-		    color: $main_bright_color;
-			text-shadow: 0 0 3px $main_bright_color;
+		    color: $navbar_text_color_hover;
+			text-shadow: 0 0 3px $navbar_text_color_hover;
 			background: $navpill_hover_bg_color;
 		}
 		> a:active {
-		    color: $main_bright_color;
+		    color: $main_color_light
 		}
-	}
-	> .external > a {
-		background: $navbar_bg_color;
-		color: $navpill_external_color;
-	}
-	> li.sub > a {
-	    padding-left: 35px;
 	}
 }
 
 .squares {
 	 a {
 		padding: 0px 5px;
-		color: $navbar_color;
+		color: $navbar_text_color;
+		@media (max-width: $screen-sm-max) {
+			padding: 0px;
+		}
 	}
 }

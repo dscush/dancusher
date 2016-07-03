@@ -1,7 +1,20 @@
 $icon-font-path: '../fonts/';
-$main_color: #0077aa;
-$main_bright_color: #0ff;
-$other_color: #00aa77;
+$main_color_dark: #124787;
+$main_color_medium: #68a7c4;
+$main_color_light: #a0d8da;
+$other_color: #00f572;
+
+$body-bg-color: $main_color_light;
+
+$panel-border: $main_color_dark;
+$panel-body-text-color: $main_color_light;
+$panel-body-bg-color: $main_color_dark;
+$panel-footer-text-color: $main_color_dark;
+$panel-footer-bg-color: $main_color_medium;
+$panel-heading-text-color: $panel-footer-text-color;
+$panel-heading-bg-color: $panel-footer-bg-color;
+$panel-heading-border: $panel-border;
+
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
@@ -22,7 +35,8 @@ $other_color: #00aa77;
 
 body {
     position: relative;
-    background-color: lighten($main_color, 50%);
+    background-color: $body-bg-color;
+    color: $main_color_dark;
 }
 
 .header,
@@ -50,30 +64,66 @@ body {
 .row-content {
   margin: 0px auto;
   padding: 50px 0px;
-  border-bottom: 1px ridge;
+  border-bottom: $main_color_medium 1px ridge;
   min-height: 400px;
 }
-.row-footer {
-  margin: 0px auto;
-  padding: 20px 0px;
-  background-color: #32393f; // TODO: replace with color variable
-}
 
 
-     a.toggler {
-        text-decoration: none;
-        color: $other_color;
-    }
-     a:visited.toggler {
-        text-decoration: none;
-        color: $other_color;
-    }
-     a:hover.toggler, a:active.toggler {
-        text-decoration: none;
-    
+a.toggler, a:visited.toggler {
+  text-decoration: none;
+  h3 {
+    color: $main_color_dark;
+  }
 }
-h2 {
-    display: inline;
+a:hover.toggler, a:active.toggler {
+  text-decoration: none;
+  h3 {
+    color: $other_color;
+		text-shadow: 0 0 10px $other_color;
+  }
+}
+
+.panel-body {
+  a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: $other_color;
+		text-shadow: 0 0 10px $other_color;
+  }
+  a:visited {
+    text-decoration: underline;
+    color: $other_color;
+		text-shadow: 0 0 10px $other_color;
+  }
+  a:hover, a:active {
+    text-decoration: underline;
+    color: $other_color;
+		text-shadow: 0 0 10px $other_color;
+  }
+}
+
+strong {
+    color: $other_color;
+    font-weight: normal;
+}
+
+.mypanel {
+  border-color: $panel-border;
+
+  & .panel-heading {
+    color: $panel-heading-text-color;
+    background-color: $panel-heading-bg-color;
+    border-color: $panel-heading-border;
+  }
+  & .panel-body {
+    color: $panel-body-text-color;
+    background-color: $panel-body-bg-color;
+  }
+  & .panel-footer {
+    color: $panel-footer-text-color;
+    background-color: $panel-footer-bg-color;
+    border-color: $panel-border;
+  }
 }
 
 // a few workarounds for adblock overkill
