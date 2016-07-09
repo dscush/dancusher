@@ -13,6 +13,11 @@
             "image": "images/dan2.jpg",
             "description": "You're looking at it!  I created this with <strong>Bootstrap</strong> for the layout and <strong>Nunjucks</strong> for templating.  I avoided Yeoman this time because I wanted to really get my hands dirty with creating the stuff Yeoman takes care of for you, like the <strong>Gulp</strong> flow.  Go ahead and peruse the <a href=\"http://www.github.com/dscush/dancusher\">source code</a>."
         },{
+            "id": "rcpg_module",
+            "name": "Random Music",
+            "image": "images/friends_database.jpg",
+            "description": "This is a <strong>Python module</strong> I'm working on to randomly generate musical chord progressions based on a given set of probability mass functions.  I certainly wouldn't call it AI or Artificial Creativity, but I'm hoping it might serve as a tool to aid musicians in accessing their own creativity.  It's very early in development and it's only available so far as a module, but if you know basic Python you should be able to figure it out from the <a href=\"http://www.github.com/dscush/rcpg\">source code</a>.  I'm still unsure if this will even generate any interesting output at all, but I'm hopeful.  If it does, I'll wrap it in a web app and allow users to enter their own PMFs.  This is my first time creating something from the beginning using <strong>test driven development</strong>.  The idea was inspired by <a href=\"https://www.youtube.com/watch?v=N7a1Ua6kvcA\">Langorhythm</a>"
+        },{
             "id": "friends_database",
             "name": "Friends Database",
             "image": "images/friends_database.jpg",
