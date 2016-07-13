@@ -31,9 +31,9 @@ header {
 
 .navbar {
 	&:not(.navbar-fixed-top) {
-	    border-radius: 15px;
+	    border-radius: 5px;
 	    padding: 5px 15px 15px 15px;
-	    margin-top: 15px;
+	    margin-top: 113px;
 	}
 	background: $navbar_bg_color;
 	color: $navbar_text_color;
