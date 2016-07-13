@@ -11,16 +11,23 @@
             <div class="panel-body">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-3">
-                        <img class="img-responsive" src="images/dan3.jpg">
+                        <img class="img-responsive" src="images/dan2.jpg">
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-9">
                         <p>
                             I'm a Boston-area software engineer and I like making things.  I 
                             have the most experience in <strong>Python</strong> and
                             <strong>sql</strong>, but that was mostly closed source work so I 
-                            can't feature it on this site.  In addition to slinging code, I like 
+                            can't feature it on this site.  Some areas I have experience in 
+                            that aren't covered above include <strong>Linux</strong>, 
+                            <strong>git</strong>, <strong>Vim</strong>, <strong>Cloud9</strong>, 
+                            <strong>Java</strong>, <strong>MySQL</strong>, <strong>Data 
+                            Warehousing</strong>, <strong>ETL</strong>, and a little 
+                            <strong>Machine Learning</strong>.
+                        </p><p>
+                            In addition to slinging code, I like 
                             science, libraries (I married a librarian), and anything 
-                            music-related.
+                            music-related.  And <strong>cats</strong>.
                         </p>
                     </div>
                 </div>
