@@ -5,18 +5,18 @@
         "set": [{
             "id": "friends_website",
             "name": "Friends Website",
-            "image": "images/friends_site2.jpg",
+            "image": "images/friends_site.jpg",
             "description": "This is an <strong>single-page app</strong> I made for a local nonprofit.  I started it all off with <strong>Yeoman</strong>, then <strong>Bootstrap</strong> and <strong>AngularJS</strong>, as well as <strong>Sass</strong>, <strong>Gulp</strong>, Babel, Bower, and bunch of other fancy buzzwords.  Go ahead and <a href=\"http://www.friendsgpl.org\">check it out</a> for yourself, or dig into the <a href=\"http://www.github.com/dscush/friends-public\">source code</a>.  I especially like how various links, especially on the About page, send you to the Contact page with the form partially prepopulated for you.  That took a while, but I learned <i>a lot</i> about Angular UI-Router."
         },{
             "id": "my_website",
             "name": "This Website",
-            "image": "images/dan2.jpg",
-            "description": "You're looking at it!  I created this with <strong>Bootstrap</strong> for the layout and <strong>Nunjucks</strong> for templating.  I avoided Yeoman this time because I wanted to really get my hands dirty with creating the stuff Yeoman takes care of for you, like the <strong>Gulp</strong> flow.  Go ahead and peruse the <a href=\"http://www.github.com/dscush/dancusher\">source code</a>."
+            "image": "images/dan1.jpg",
+            "description": "You're looking at it!  I created this with <strong>Bootstrap</strong> for the layout and <strong>Nunjucks</strong> for templating.  I avoided Yeoman this time because I wanted to really get my hands dirty with creating the stuff Yeoman takes care of for you, like the <strong>Gulp</strong> flow.  Plus I knew it would be a very simple site.  Go ahead and peruse the <a href=\"http://www.github.com/dscush/dancusher\">source code</a>."
         },{
             "id": "rcpg_module",
             "name": "Random Music",
-            "image": "images/friends_database.jpg",
-            "description": "This is a <strong>Python module</strong> I'm working on to randomly generate musical chord progressions based on a given set of probability mass functions.  I certainly wouldn't call it AI or Artificial Creativity, but I'm hoping it might serve as a tool to aid musicians in accessing their own creativity.  It's very early in development and it's only available so far as a module, but if you know basic Python you should be able to figure it out from the <a href=\"http://www.github.com/dscush/rcpg\">source code</a>.  I'm still unsure if this will even generate any interesting output at all, but I'm hopeful.  If it does, I'll wrap it in a web app and allow users to enter their own PMFs.  This is my first time creating something from the beginning using <strong>test driven development</strong>.  The idea was inspired by <a href=\"https://www.youtube.com/watch?v=N7a1Ua6kvcA\">Langorhythm</a>"
+            "image": "images/fifths.gif",
+            "description": "This is a <strong>Python module</strong> I'm working on to randomly generate musical chord progressions based on a given probability mass function (PMF).  I certainly wouldn't call it AI or Artificial Creativity, but I'm hoping it might serve as a fun tool to aid musicians in accessing their own creativity.  It's very early in development and it's only available so far as a module, but if you know basic Python you should be able to figure it out from the <a href=\"http://www.github.com/dscush/rcpg\">source code</a>.  I'm still unsure if this will even generate any interesting output at all, but I'm hopeful.  If it does, I'll A) submit it to PyPI for other developers and B) wrap it in a web app for end users to enter their own PMFs.  This is my first time creating something from the beginning using <strong>test driven development</strong>.  The idea was inspired by <a href=\"https://www.youtube.com/watch?v=N7a1Ua6kvcA\">Langorhythm</a>"
         },{
             "id": "friends_database",
             "name": "Friends Database",
@@ -29,12 +29,12 @@
         "set": [{
             "id": "friends_group",
             "name": "The Library",
-            "image": "images/logo_no_words.png",
+            "image": "images/logo_no_words.gif",
             "description": "I've served on the board of directors for <a href=\"http://www.friendsgpl.org\"> The Friends of the Grafton Public Library</a> since June 2015, first as the Membership Chair, and now as President.  I've managed the membership list (in the django app listed under the project section), sent mass emails via Constant Contact, created a website (also under the project section), organized fundraisers, solicited donations, led meetings, and achieved consensus among the board on controversial issues."
         },{
             "id": "music",
             "name": "Music",
-            "image": "images/ii-aug6-i64-V.gif",
+            "image": "images/BWV847_page2.gif",
             "description": "Ever since I started piano lessons in second grad, music has been an important part of my life - much less important in recent years, but it's still there.  More than anything, I'm interested in music theory - but I also play piano and guitar, sing bass, and have dabbled in a flute, fife, tin whistle, recorder, ocarina, and djembe."
         },{
             "id": "science",
@@ -44,4 +44,3 @@
         }]
     }]
 }
-    
