@@ -35,12 +35,12 @@
             "id": "music",
             "name": "Music",
             "image": "images/BWV847_page2.gif",
-            "description": "Ever since I started piano lessons in second grad, music has been an important part of my life - much less important in recent years, but it's still there.  More than anything, I'm interested in music theory - but I also play piano and guitar, sing bass, and have dabbled in a flute, fife, tin whistle, recorder, ocarina, and djembe."
+            "description": "Ever since I started piano lessons in second grade, music has been an important part of my life - much less important in recent years, but it's still there.  More than anything, I'm interested in music theory, but I also play piano and guitar, sing bass, and have dabbled in a flute, fife, tin whistle, recorder, ocarina, and djembe."
         },{
             "id": "science",
             "name": "Science",
             "image": "images/growthplate.jpg",
-            "description": "Long before becoming a software engineer, I majored in psychology, minored in biology, and did the pre-med track.  After deciding not to go to med school and before getting my MS in Computer Science, I worked for four years as a biomed lab tech in a behavioral neuroendocrinology lab and an orthopedics lab (where I created the image above).  You can take a look at <a href=\"http://www.ncbi.nlm.nih.gov/pubmed?term=cusher%5BAuthor%5D\">my pubications</a>.  I'm particularly interested in psychology, neuroscience, and evolution."
+            "description": "Before becoming a software engineer, I majored in psychology, minored in biology, and did the pre-med track.  After deciding not to go to med school and before getting my MS in Computer Science, I worked for four years as a biomed lab tech in a behavioral neuroendocrinology lab and an orthopedics lab (where I created the image above).  You can take a look at <a href=\"http://www.ncbi.nlm.nih.gov/pubmed?term=cusher%5BAuthor%5D\">my pubications on PubMed</a>.  I'm particularly interested in psychology, neuroscience, and evolution."
         }]
     }]
 }
