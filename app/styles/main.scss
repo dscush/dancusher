@@ -126,6 +126,11 @@ strong {
   }
 }
 
+code {
+  background-color: inherit;
+  color: inherit;
+}
+
 // a few workarounds for adblock overkill
 @mixin fa {
   font-size: 50px;
