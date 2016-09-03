@@ -26,7 +26,7 @@
             "id": "mancala",
             "name": "Mancala AI",
             "image": "images/mancala.jpg",
-            "description": "This is a simple mancala web app.  It's all front end - the logic is purely client <strong>JavaScript</strong>.  The cool part is the <strong>artificial intelligence</strong> algorithm that plays against you.  It uses a <strong>minimax</strong> algorithm with <strong>alpha-beta pruning</strong> to allow deeper searching within a reasonable time.  I used the <strong>model view controller</strong> pattern, as well as JavaScript object constructors and prototype manipulation, to demonstrate my skill with JavaScript's <strong>prototypal inheritance</strong>. I used jQuery to link the <strong>MVC</strong>'s controller and view.  See <a href=\"http://www.github.com/dscush/mancala\">source</a>."
+            "description": "This is a simple mancala web app.  It's all front end - the logic is purely client <strong>JavaScript</strong>.  The cool part is the <strong>artificial intelligence</strong> algorithm that plays against you.  It uses a <strong>minimax</strong> algorithm with <strong>alpha-beta pruning</strong> to allow deeper searching within a reasonable time.  I used the <strong>model view controller</strong> pattern, as well as JavaScript object constructors and prototype manipulation, to demonstrate my skill with JavaScript's <strong>prototypal inheritance</strong>. I used <strong>jQuery</strong> to link the <strong>MVC</strong>'s controller and view.  See <a href=\"http://www.github.com/dscush/mancala\">source</a>."
         }]
     }, {
         "id": "extracurriculars",
