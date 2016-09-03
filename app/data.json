@@ -22,6 +22,11 @@
             "name": "Friends Database",
             "image": "images/friends_database.jpg",
             "description": "I made this <strong>Django</strong> app primarily to store the membership list for the Friends of the Grafton Public Library.  When I became Membership Chair, I was given a single over-complicated Excel sheet with rows organized by both individual and family.  First I split that out into a relational database (a table for individuals and a table for families), but when I realized that eventually there would be a new Membership Chair who didn't know <strong>SQL</strong>, I decided to wrap it in Django's beautiful built-in admin app.  I plan to incorporate this into the main Friends site as a backend, so that I can A) store other site data there and B) allow board members to login and view the membership info via that same site.  See <a href=\"http://www.github.com/dscush/friendsgpl\">source</a>."
+        },{
+            "id": "mancala",
+            "name": "Mancala AI",
+            "image": "images/mancala.jpg",
+            "description": "This is a simple mancala web app.  It's all front end - the logic is purely client <strong>JavaScript</strong>.  The cool part is the <strong>artificial intelligence</strong> algorithm that plays against you.  It uses a <strong>minimax</strong> algorithm with <strong>alpha-beta pruning</strong> to allow deeper searching within a reasonable time.  I used the <strong>model view controller</strong> pattern, as well as JavaScript object constructors and prototype manipulation, to demonstrate my skill with JavaScript's <strong>prototypal inheritance</strong>. I used jQuery to link the <strong>MVC</strong>'s controller and view.  See <a href=\"http://www.github.com/dscush/mancala\">source</a>."
         }]
     }, {
         "id": "extracurriculars",
