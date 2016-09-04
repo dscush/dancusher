@@ -6,7 +6,7 @@
     {% for project in project_set.set %}
     <div id="{{project.id}}" class="col-xs-12 col-sm-6 col-lg-4">
         <div class="panel mypanel">
-            <a class="toggler" type="button" data-toggle="collapse" data-target="#{{project.id}}_body" aria-expanded="false" aria-controls="{{project.id}}_body">
+            <a class="toggler" type="button" data-toggle="modal" data-target="#{{project.id}}_modal" aria-expanded="false" aria-controls="{{project.id}}_modal">
                 <div class="panel-body">
                     <img class="img-responsive" src="{{project.image}}">
                 </div>
@@ -14,11 +14,27 @@
                     <h3>{{project.name}}</h3>
                 </div>
             </a>
-            <div class="panel-body collapse" id="{{project.id}}_body">
-                <p>{{project.description | safe}}</p>
-            </div>
         </div>
     </div>
     {% endfor %}
 </div>
+{% endfor %}
+
+<!-- all the modals -->
+{% for project_set in project_sets %}
+    {% for project in project_set.set %}
+    <div class="modal fade" id="{{project.id}}_modal" tabindex="-1" role="dialog" aria-labelledby="{{project.id}}_modal_label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="fa fa-times"></span></button>
+                    <h4 class="modal-title" id="{{project.id}}_modal_label">{{project.name}}</h4>
+                </div>
+                <div class="modal-body">
+                    {{project.description | safe}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
 {% endfor %}

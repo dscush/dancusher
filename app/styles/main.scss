@@ -15,6 +15,10 @@ $panel-heading-text-color: $panel-footer-text-color;
 $panel-heading-bg-color: $panel-footer-bg-color;
 $panel-heading-border: $panel-border;
 
+$modal-border-color: $main_color_medium;
+$modal-bg-color: $main_color_dark;
+$modal-text-color: $main_color_light;
+
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
@@ -124,6 +128,26 @@ strong {
     background-color: $panel-footer-bg-color;
     border-color: $panel-border;
   }
+}
+
+.modal-content {
+  background-color: $modal-bg-color;
+  color: $modal-text-color;
+  a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: $other_color;
+    &:hover {
+      text-shadow: 0 0 10px $other_color;
+    }
+  }
+  .close {
+    color: white;
+  }
+}
+
+.modal-header {
+  border-bottom: 1px $modal-border-color solid;
 }
 
 code {
