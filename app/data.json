@@ -22,6 +22,11 @@
             "name": "Mancala AI",
             "image": "images/mancala.jpg",
             "description": "This is a simple mancala web app.  It's all front end - the logic is purely client <strong>JavaScript</strong>.  The cool part is the <strong>artificial intelligence</strong> algorithm that plays against you.  It uses a <strong>minimax</strong> algorithm with <strong>alpha-beta pruning</strong> to allow deeper searching within a reasonable time.  I used the <strong>model view controller</strong> pattern, as well as JavaScript object constructors and prototype manipulation, to demonstrate my skill with JavaScript's <strong>prototypal inheritance</strong>. I used <strong>jQuery</strong> to link the <strong>MVC</strong>'s controller and view.  See <a href=\"http://www.github.com/dscush/mancala\">source</a>."
+        },{
+            "id": "budget_visualizer",
+            "name": "Budget Visualizer",
+            "image": "images/budget_visualizer.jpg",
+            "description": "Massachusetts has a law called Proposition 2&#x00BD;, which limits how much towns can increase their property tax each year.  In Grafton, we're heading toward a budget crisis due to our school budget increasing faster than we can raise property taxes, but many people in town leadership don't see the problem.  I created this <a href=\"https://dscush.github.io/budget-visualizer/\">very simple web page</a> using <strong>Bootstrap</strong>, <strong>jQuery</strong>, and <strong>Chart.js</strong> to demonstrate that our current rates of total budget and school budget growth are unsustainable.  I'd still like to clean up the layout a bit, including moving the crisis events out of Bootstrap alterts and into some kind of Chart.js tooltip or something.  See <a href=\"http://www.github.com/dscush/budget-visualizer\">source</a>."
         }]
     }, {
         "id": "extracurriculars",
