@@ -27,6 +27,11 @@
             "name": "Budget Visualizer",
             "image": "images/budget_visualizer.jpg",
             "description": "Massachusetts has a law called Proposition 2&#x00BD;, which limits how much towns can increase their property tax each year.  In Grafton, we're heading toward a budget crisis due to our school budget increasing faster than we can raise property taxes, but many people in town leadership don't see the problem.  I created this <a href=\"https://dscush.github.io/budget-visualizer/\">very simple web page</a> using <strong>Bootstrap</strong>, <strong>jQuery</strong>, and <strong>Chart.js</strong> to demonstrate that our current rates of total budget and school budget growth are unsustainable.  I'd still like to clean up the layout a bit, including moving the crisis events out of Bootstrap alterts and into some kind of Chart.js tooltip or something.  See <a href=\"http://www.github.com/dscush/budget-visualizer\">source</a>."
+        },{
+            "id": "midi_inverter",
+            "name": "MIDI Inverter",
+            "image": "images/midi_inverter.jpg",
+            "description": "In January 2017, <a href=\"http://andrewhuang.com/\">Andrew Huang</a> came up with an idea to <a href=\"https://www.youtube.com/watch?v=4IAZY7JdSHU\">invert</a> the pitches of a <strong>MIDI</strong> file, just to hear how it would sound.  He did it by hand, but I knew a thing or two about MIDI and I was pretty sure I could automate it.  I quickly threw together this little <a href=\"https://midi-inverter.herokuapp.com/\">MIDI Inverter</a> app using <strong>Flask</strong> and <strong>Bootstrap</strong>, and threw it up on <strong>Heroku</strong>.  It works very well for single-track MIDI files and I'm hoping to eventually work out some better behavior for multi-track MIDI files, but I've been busy working on other projects for a while.  See <a href=\"http://www.github.com/dscush/midi-inverter\">source</a>."
         }]
     }, {
         "id": "extracurriculars",
