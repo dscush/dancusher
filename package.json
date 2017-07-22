@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "gulp": "gulp",
+    "minify": "gulp minify"
+  },
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "del": "^2.2.1",
