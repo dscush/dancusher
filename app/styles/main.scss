@@ -1,8 +1,8 @@
 $icon-font-path: '../fonts/';
-$main_color_dark: #124787;
-$main_color_medium: #68a7c4;
-$main_color_light: #a0d8da;
-$other_color: #00f572;
+$main_color_dark: #252A38;
+$main_color_medium: #ADAED1;
+$main_color_light: #F0EDFF;
+$other_color: #48FF00;
 
 $body-bg-color: $main_color_light;
 
@@ -73,16 +73,15 @@ body {
 }
 
 
-a.toggler, a:visited.toggler {
+a.toggler {
   text-decoration: none;
   h3 {
     color: $main_color_dark;
   }
 }
 a:hover.toggler, a:active.toggler {
-  text-decoration: none;
-  h3 {
-    color: $other_color;
+  .panel-footer {
+    background-color: $other_color;
   }
 }
 
