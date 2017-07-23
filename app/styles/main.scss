@@ -79,11 +79,6 @@ a.toggler {
     color: $main_color_dark;
   }
 }
-a:hover.toggler, a:active.toggler {
-  .panel-footer {
-    background-color: $other_color;
-  }
-}
 
 .panel-body {
   a {
