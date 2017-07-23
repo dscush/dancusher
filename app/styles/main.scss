@@ -83,7 +83,6 @@ a:hover.toggler, a:active.toggler {
   text-decoration: none;
   h3 {
     color: $other_color;
-		text-shadow: 0 0 10px $other_color;
   }
 }
 
@@ -92,17 +91,14 @@ a:hover.toggler, a:active.toggler {
     text-decoration: underline;
     font-weight: bold;
     color: $other_color;
-		text-shadow: 0 0 10px $other_color;
   }
   a:visited {
     text-decoration: underline;
     color: $other_color;
-		text-shadow: 0 0 10px $other_color;
   }
   a:hover, a:active {
     text-decoration: underline;
     color: $other_color;
-		text-shadow: 0 0 10px $other_color;
   }
 }
 
