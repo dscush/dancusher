@@ -128,7 +128,7 @@ strong {
     font-weight: bold;
     color: $other_color;
     &:hover {
-      text-shadow: 0 0 10px $other_color;
+      text-shadow: 0 0 10px;
     }
   }
   .close {

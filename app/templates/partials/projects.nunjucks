@@ -31,7 +31,9 @@
                     <h4 class="modal-title" id="{{project.id}}_modal_label">{{project.name}}</h4>
                 </div>
                 <div class="modal-body">
-                    {{project.description | safe}}
+                    <p>
+                      {{project.description | safe}}
+                    </p>
                 </div>
             </div>
         </div>
